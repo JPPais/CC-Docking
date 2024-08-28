@@ -8,7 +8,7 @@ first, you have to run:
 
 - Feature Selection: it calculates and filters molecular descriptors based on variance thresholds, and removes highly correlated features.
 
-- Categorization: Categorizes compounds based on a defined LogMIC cutoff, creating "Strong" and "Weak" categories. In this example, we are interested in distinguishing compounds with weak and strong antitubercular activity but you can divide it into three or more categories.
+- Categorization: categorizes compounds based on a defined LogMIC cutoff, creating "Strong" and "Weak" categories. In this example, we are interested in distinguishing compounds with weak and strong antitubercular activity but you can divide it into three or more categories.
 
 - Visualization: Generates various plots (e.g., box plots, histograms, scatter plot matrices) to visualize the distribution and relationships of molecular descriptors. It is extremely important to analyze our data before running the ML part, especially to check how each feature relates to others.
 
