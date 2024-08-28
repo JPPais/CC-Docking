@@ -16,6 +16,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
+from sklearn.feature_selection import VarianceThreshold
 from rdkit import DataStructs
 from rdkit import Chem
 from rdkit.Chem import AllChem, Draw
@@ -28,7 +29,6 @@ from rdkit.Chem.MolStandardize import rdMolStandardize
 from rdkit.Chem.Draw import MolsToGridImage
 from rdkit.Chem.Draw import IPythonConsole
 from mordred import Calculator, descriptors
-from sklearn.feature_selection import VarianceThreshold
 import seaborn as sns
 
 #prepare descriptors_data
